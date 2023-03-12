@@ -2,24 +2,14 @@
 pypulseaudio
 ************
 
-.. image:: https://pypip.in/version/pypulseaudio/badge.png?update
-    :target: https://pypi.python.org/pypi/pypulseaudio/
-    :alt: Latest PyPI version
+This is a fork of a repository that had it's last update in 2014 and the author didn't have any activity in the last 2 years on github.
+I needed a simple python wrapper that will allow me to interact with a pulseadio server including ability to record and playback samples,
+so I decided to adopt this project and expand it's functionality.
+If the original author answers, I'll be happy to merge my changes to his repository. If not, I will think what to do with it.
 
-.. image:: https://pypip.in/download/pypulseaudio/badge.png?update
-    :target: https://pypi.python.org/pypi/pypulseaudio/
-    :alt: Number of PyPI downloads
+For now I'm beginning my work on the `dev` branch.
 
-.. image:: https://travis-ci.org/liamw9534/pypulseaudio.png?branch=master
-    :target: https://travis-ci.org/liamw9534/pypulseaudio
-    :alt: Travis CI build status
-
-.. image:: https://coveralls.io/repos/liamw9534/pypulseaudio/badge.png?branch=master
-   :target: https://coveralls.io/r/liamw9534/pypulseaudio?branch=master
-   :alt: Test coverage
-
-A python library wrapper for interacting with the pulseaudio sound system.
-
+- `Original repository: <https://github.com/liamw9534/pypulseaudio>`_
 
 Installation
 ============
