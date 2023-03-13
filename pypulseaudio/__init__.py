@@ -127,7 +127,7 @@ class PulseAudio(object):
             if not self._app_name:
                 raise NameError("No pa_context or app name to create it with "
                                 "has been given")
-            self.__context = pa_context_new(self._api, self._app_name)
+            self.__context = pa_context_new(self._api, self._app_name.encode("UTF-8"))
             pa_context_set_state_callback(self._context, self._state_changed, None)
         return self.__context
 
