@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 
 from ctypes import *
-from pulseaudio.lib_pulseaudio import *
+from pypulseaudio.bindings.pulse import *
 
 __version__ = '0.1.0'
 
